@@ -23,7 +23,7 @@ public class Main {
 	}
 
 	static void test1() {
-		Integer data[] = new Integer[] {
+		Integer[] data = new Integer[] {
 				7, 4, 9, 2, 5, 8, 11, 3, 12, 1
 		};
 		
@@ -196,7 +196,7 @@ public class Main {
 	}
 	
 	static void test8() {
-		Integer data[] = new Integer[] {
+		Integer[] data = new Integer[] {
 				7, 4, 9, 2, 1
 		};
 		
@@ -209,8 +209,8 @@ public class Main {
 	}
 	
 	static void test9() {
-		Integer data[] = new Integer[] {
-				7, 4, 9, 2, 1
+		Integer[] data = new Integer[] {
+				10,12,8,7, 4, 9, 2, 1,6,16,19,11
 		};
 		
 		BinarySearchTree<Integer> bst = new BinarySearchTree<>();
